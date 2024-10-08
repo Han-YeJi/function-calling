@@ -1,0 +1,30 @@
+{"input": "Can you give me the latest risk report for the system?", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{}"}]}
+{"input": "What are the current risk highlights for today?", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{}"}]}
+{"input": "I want to see the risk details as of now.", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{}"}]}
+{"input": "What's the risk level in the system right now?", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{}"}]}
+{"input": "Show me the most recent risk analysis.", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{}"}]}
+{"input": "What were the major risks in January 2023?", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-01-31\"}"}]}
+{"input": "Can you give me a summary of the risk report for the whole of January 2023?", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-01-31\"}"}]}
+{"input": "Tell me about the risk scores for the month of January 2023.", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-01-31\"}"}]}
+{"input": "Today is February 1, 2023. What were the critical risks last month?", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-01-31\"}"}]}
+{"input": "I need details on the risk report from January 1 to January 31, 2023.", "output": [{"tool": "get_xdr_risk_report", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-01-31\"}"}]}
+{"input": "What are the current risk statistics?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{}"}]}
+{"input": "Can you give me a summary of the risk factors we're dealing with right now?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{}"}]}
+{"input": "What's the latest on the risk statistics?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{}"}]}
+{"input": "How do the risk levels look at the moment?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{}"}]}
+{"input": "Could you provide an overview of the risk statistics as of today?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{}"}]}
+{"input": "What are the risk statistics since the start of this year?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2024-01-01\"}"}]}
+{"input": "Can you give me the risk details from January 1, 2024, onwards?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2024-01-01\"}"}]}
+{"input": "Today is April 29, 2024. Please show me the risk statistics starting from the beginning of the year.", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2024-01-01\"}"}]}
+{"input": "How have the risks changed since January 1, 2024?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2024-01-01\"}"}]}
+{"input": "Please let me know the risk factors from January 1 this year until now.", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2024-01-01\"}"}]}
+{"input": "What are the risk statistics up to May 7, 2024?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"end_date\": \"2024-05-07\"}"}]}
+{"input": "Please provide the risk analysis covering up until today, May 7, 2024.", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"end_date\": \"2024-05-07\"}"}]}
+{"input": "Can you summarize the risk factors identified by May 7, 2024?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"end_date\": \"2024-05-07\"}"}]}
+{"input": "What risks have been recorded leading up to May 7, 2024?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"end_date\": \"2024-05-07\"}"}]}
+{"input": "Tell me the risk statistics as of today, May 7, 2024.", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"end_date\": \"2024-05-07\"}"}]}
+{"input": "What are the overall risk statistics for the year 2023?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-12-31\"}"}]}
+{"input": "Can you summarize the risk factors detected throughout 2023?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-12-31\"}"}]}
+{"input": "Please provide a yearly risk report for 2023.", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-12-31\"}"}]}
+{"input": "How many risks have been recorded from January 1 to December 31, 2023?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-12-31\"}"}]}
+{"input": "Today is the first week of 2024. Can you give me the risk statistics for all of last year?", "output": [{"tool": "get_xdr_risk_statistics", "tool_input": "{\"start_date\": \"2023-01-01\", \"end_date\": \"2023-12-31\"}"}]}

@@ -1,0 +1,2042 @@
+[
+    {
+        "question": "The regular expression to search for all occurrences of the substring \"cat\" in the string is /\\bcat\\b/g.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "public static int getSmallestCommonDenominator(int a, int b){\n    int gcd = 1;          \n    int smallNumber = Math.min(a, b);\n    \n     for(int i = 1; i <= smallNumber; i++) \n    {\n        if(a % i == 0 && b % i == 0) \n            gcd = i;\n    } \n    int lcm = (a*b)/gcd; \n   \n    return lcm; \n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "#!/bin/bash \n# Create a directory\nmkdir myDir",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT A.id, A.name, B.address \nFROM A \nINNER JOIN B \nON A.id = B.id",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def find_average(num1, num2): \n  total = num1 + num2 \n  average = total / 2\n  return average",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "The unit of measurement for the average speed of a car is kilometers per hour (km/h) or miles per hour (mph).",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT TOP 10 c.id, c.name, SUM(d.amount) as total_purchase \nFROM customers c\nINNER JOIN details d ON c.id = d.customer_id\nGROUP BY c.id, c.name\nORDER BY total_purchase DESC;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def add(x, y):\n   return x + y\n\ndef addSquares(x, y):\n   return x*x + y*y",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "CREATE TABLE products (\n\tname VARCHAR(255),\n\tprice DECIMAL,\n\tcategory VARCHAR(255)\n);",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def format_list(numbers):\n    result = []\n    prod = 1\n    for i in range(0, len(numbers)):\n        prod = prod * numbers[i]\n    for i in range(0, len(numbers)):\n        result.append(prod // numbers[i])\n    return result",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "puts \"What is your name?\"\nname = gets.chomp\nputs \"Hello, #{name}!\"",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def ordered_list(list_of_strings): \n    for i in range(len(list_of_strings) - 1): \n        if list_of_strings[i] >= list_of_strings[i+1]: \n            return False\n    return True \n  \n# Driver Code \nlist_of_strings = ['algorithm', 'coding', 'novel']\nprint(ordered_list(list_of_strings))",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": ".test:first-of-type {\n  // styles here\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import time\n\nfrom flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/webhook', methods=['POST'])\ndef webhook():\n    data = request.get_json()\n    print(data)\n\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=5000)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "for (let i = 0; i < arr.length; i++) {\n  console.log(arr[i]);\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def find_max_of_three(a, b, c):\n    \"\"\"Function that takes an integer parameter and find the maximum of the three numbers with the help of ternary operator\"\"\"\n    max_value = a if a > b and a > c else (b if b > a and b > c else c)\n    return max_value\n\nif __name__ == '__main__':\n    a = 1\n    b = 5\n    c = 3\n    max_value = find_max_of_three(a, b, c)\n    print(max_value)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "<?php\n  function calculateArea($length,$width){\n    return $length * $width;\n}\n \necho calculateArea(10,20);\n?>",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "public class MyClass {\n  public String toString() {\n    return \"MyClass Object\";\n  }\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT * FROM Table_Name WHERE column_name IS NULL;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "public static void displaySquare(int num){\n  System.out.println(num*num);\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def display_char(s):\n    for char in s:\n        print(char)\n\ns = \"Hello World!\"\ndisplay_char(s)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "# Swapping two numbers using a temporary variable\na, b = 10, 20 \ntemp = a \na = b \nb = temp \nprint('a:', a) \nprint('b:', b)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Convert your current directory to a virtual environment:\n\npython3 -m venv <name of virtual environment>\n\nActivate the virtual environment:\n\nsource <name of virtual environment>/bin/activate\n    \nDeactivate the virtual environment:\n\ndeactivate",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def greeting(name):\n    name = name.lower()\n    print('Hello, ' + name + '!')",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "// To calculate the sum of all elements in an array using the code provided:\n// 1. Initialize the array of integers to be summed\n// 2. Use the calcSum function to iterate over the array and sum all of its elements\n// 3. Return the calculated sum from the calcSum function",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "\"\"\"\nFind the mean rental price for a property in Miami, Florida using the Pandas library.\n\"\"\"\n\nimport pandas as pd\n\n# read the dataset\ndf = pd.read_csv('data.csv')\n\n# filter the data by city\ndf_miami = df[df['city'] == 'Miami, Florida']\n\n# calculate the mean rental price\nmean_price = df_miami['rental_price'].mean()\n\n# print the result\nprint(f'The mean rental price in Miami, Florida is ${mean_price:.2f}')",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "double mean = (45 + 63 + 76 + 89 + 47) / 5;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT \n  * \nFROM \n  table \nWHERE \n  parent_id > (SELECT MIN(id) FROM Table)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "FUNCTION Sort(input)\n  SET i to 0\n  WHILE i < LENGTH OF input\n    SET max to i\n    SET j to i + 1\n    WHILE j < LENGTH OF input\n      IF input[j] > input[max] THEN\n        SET max to j\n      END IF\n      SET j to j + 1\n    END WHILE\n    IF max != i THEN\n      SWAP input[i] with input[max]\n    END IF\n    SET i to i + 1\n  END WHILE \nRETURN input\nEND FUNCTION",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "\"\"\"\nCreate a function to rotate a given linked list\n\"\"\"\n\n# Create a class node\nclass Node: \n\t# Create a constructor to initialise the node object \n\tdef __init__(self, data): \n\t\tself.data = data \n\t\tself.next = None\n\nclass LinkedList: \n\t# Create a constructor to initialise the linked list \n\tdef __init__(self): \n\t\tself.head = None\n\t\n\t# Create a function to rotate the linked list \n\tdef rotate(self, index):\n\t\tif (index == 0): \n\t\t\treturn\n\t\tprev = None            \n\t\tcurr = self.head\n\t\twhile (index > 0):\n\t\t\tprev = curr\n\t\t\tcurr = curr.next\n\t\t\tindex -= 1\n\t\t\n\t\tprev.next = None\n\t\tself.head = curr\n\t\twhile (curr.next != None):\n\t\t\tcurr = curr.next\n\t\tcurr.next = self.head",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "class DateCalculator {\n    static daysDifference(date1,date2) {\n        let diffTime = Math.abs(date2.getTime() - date1.getTime());\n        let diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));\n        return diffDays;\n    }\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def remove_duplicates(arr) \n  arr.uniq \nend \n  \nputs remove_duplicates([1, 2, 2, 3, 4, 4]) # should print [1, 2, 3, 4]",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "unique_nums = set(list_of_nums)  # {2, 3, 5, 7, 8}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def remove_whitespace(str)\n    str.gsub(/\\s+/, \"\")\nend",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": ".text {\n  font-size: 12px;\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "function triangleArea(side_1, side_2, side_3) {\n    var s = (side_1 + side_2 + side_3) / 2;\n    var area = Math.sqrt(s * (s - side_1) * (s - side_2) * (s - side_3));\n    return area;\n}\n\nconsole.log(triangleArea(5,6,7)); // 14.697",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "CREATE TABLE Users (\n  UserId INT NOT NULL, \n  Username VARCHAR(255) NOT NULL,\n  PRIMARY KEY (UserId)\n);",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "function getRandomNumber() {\n return Math.floor(Math.random() * 100);\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def is_palindrome(string):\n    # Reverse string \n    reversed_string = string[::-1]\n    # Compare strings\n    if string == reversed_string:\n        return True\n    else:\n        return False\n\n# Example\nstring = \"racecar\"\nprint(is_palindrome(string))\n# Output: True",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "class ComplexNumber{ \n        double real;\n        double imaginary;\n    \n        public ComplexNumber(double real, double imaginary){\n            this.real = real;\n            this.imaginary = imaginary;\n        }\n    \n        public double getReal(){ \n            return real;\n        }\n    \n        public double getImaginary(){\n            return imaginary;\n        }\n    }",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def base10_to_base16(num):\n    return hex(num).upper()[2:]\n\nif __name__ == '__main__':\n    print(base10_to_base16(245))",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Type hinting is a feature of the Python language that allows one to add type information to a variable, a function, and its parameters. The type hinting allows Python to infer the type of data to be used and this helps the interpreter to identify any errors and provide more feedback during the development process. It also makes the code more readable and maintainable since type information can be used to provide auto-complete and better error messages.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import string\nimport random\n\ndef generate_pin():\n pin = '';\n chars = string.ascii_lowercase + string.ascii_uppercase + string.digits\n for i in range(6):\n  pin += random.choice(chars)\n return pin\n\nprint(generate_pin())",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def fib(n):\n    a = 0\n    b = 1\n    if n == 0:\n        return a\n    elif n == 1:\n        return b\n    else:\n        for i in range(2,n):\n            c = a + b\n            a = b\n            b = c\n        return b",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "function randomString(n) {\n  const possibleCharacters = \"abcdefghijklmnopqrstuvwxyz0123456789\";\n  const possibleLength = possibleCharacters.length;\n  let generatedString = '';\n  \n  for (let i = 0; i < n; i++) {\n    let randomIndex = Math.floor(Math.random() * possibleLength);\n    let randomCharacter = possibleCharacters.charAt(randomIndex);\n    generatedString += randomCharacter;\n  }\n  \n  return generatedString;\n}\n\nconsole.log(randomString(8));",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import requests\n\nurl = \"www.wikipedia.org\"\n\ntry:\n    response = requests.get(url)\n    if response.status_code == 200:\n        print(response.text)\n    else:\n        print(\"Oops! Something went wrong!\")\n\nexcept Exception as e:\n    print(\"Exception occurred: %s\" % (e))",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "print(\"Programming is fun!\")",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def list_to_dict(tuples_list):\n    result = {}\n    for tuple_ in tuples_list:\n        result[tuple_[0]] = tuple_[1]\n    \n    return result",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "function genRandom2DArray(m, n){ \n    let result = new Array(m);\n  \n    for (let i = 0; i < m; i++) {\n    result[i] = new Array(n);\n  \n    for (let j = 0; j < n; j++) {\n        result[i][j] = Math.floor(Math.random() * 6);\n    } \n    }\n    return result; \n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def convert(F):\n return (F-32)*5/9",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def get_divisors(num):\n    \"\"\"This function returns a list that contains the divisors of a given number\"\"\"\n    return [x for x in range(1, num + 1) if num % x == 0]",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "upperCase <- function(string){\n  return(toupper(string))\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "matched_strings = []\nfor string in strings:\n    if string[1:3] == pattern[1:3]:\n        matched_strings.append(string)\nprint(matched_strings) # [\"bcd\", \"def\"]",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "from pyspark.sql import SparkSession\n\n# Create SparkSession object\nspark = SparkSession.builder.getOrCreate()\n\n# Create Spark DataFrame using Pandas df\nspark_df = spark.createDataFrame(df)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "int diff = 0;\n\nfor (int i=0; i < Math.min(str1.length(), str2.length()); i++) {\n    if (str1.charAt(i) != str2.charAt(i)) {\n        diff++;\n    }\n}\nreturn diff;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "class Example {\npublic:\n Example();\n ~Example();\n};\n\nExample::Example() {}\n\nExample::~Example() {}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT * FROM book_list WHERE book_id > 500;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "\\b(https?):\\/\\/[\\w+&@#\\/%?=~_|!:,.;]+[\\w+&@#\\/%=~_|]",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import time\n\nfor i in range(10):\n    print(i)\n    time.sleep(1)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def myfunc():\n    x = 1\n    y = 5\n    return x + y",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "function isPrime(n) {\n  if (n <= 1) {\n    return false;\n  }\n  \n  // Check from 2 to n-1\n  for (let i = 2; i < n; i++) {\n    if (n % i == 0) {\n      return false;\n    }\n  }\n \n  return true;\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "class CustomerData:\n    def __init__(self, name, address, phone_number, email_address):\n        self.name = name\n        self.address = address\n        self.phone_number = phone_number\n        self.email_address = email_address\n\n    def get_name(self):\n        return self.name\n    \n    def get_address(self):\n        return self.address\n    \n    def get_phone_number(self):\n        return self.phone_number\n    \n    def get_email_address(self):\n        return self.email_address",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT * FROM Customers WHERE age > 50;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT * FROM employees WHERE age > 30;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def calculate_discount(self):\n    discount = self.price - (self.cash_coupon + (self.price * self.percentage_coupon / 100))\n    return discount",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT name, age FROM employee WHERE salary > 45000;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Garbage collection in Java works by periodically running a garbage collector to identify and reclaim memory occupied by objects that are no longer referenced. This process is done in order to free the memory for use by other objects and to prevent memory leaks. The Java Virtual Machine implements the garbage collection process by running a special type of thread, called the garbage collector, which scans for objects that are no longer referenced. When an object is no longer referenced, the garbage collector then reclaims the memory occupied by that object and makes it available for use elsewhere.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Long Short-Term Memory (LSTM) networks are a type of Recurrent Neural Network (RNN) that enable the model to learn long-term dependencies by remembering information from long periods of time. LSTMs are commonly used to model time-series data such as stock prices, sensor readings, or other sequences of data points that contain predictable patterns. The LSTM predicts the next step in the sequential data using the past data points, and can be used to perform tasks such as forecasting future data points and anomaly detection.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "The access modifiers in Java are public, private, protected, and default. Public members are accessible everywhere and can be inherited. Private members can only be accessed within the same class. Protected members are accessible within the same package but can be inherited to a subclass in a different package. Default, or package-private, members are accessible within the same package but cannot be inherited.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT AVG(salary) OVER (PARTITION BY department) AS department_avg_salary \nFROM salary;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def binary_search(arr, x): \n    start = 0\n    end = len(arr) - 1\n  \n    while start <= end: \n        mid = start + (end - start) // 2 \n        if arr[mid] == x: \n            return mid \n        elif arr[mid] < x: \n            start = mid + 1\n        else: \n            end = mid - 1  \n    return -1",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import java.util.Scanner;\n\npublic class LargestNum {\n    public static void main(String[] args){\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.print(\"Input the size of array: \");\n        int n = scanner.nextInt();\n\n        int[] arr = new int[n];\n        System.out.println(\"Input \"+n+\" elements in the array:\");\n        for(int i = 0; i < n; i++){\n            arr[i] = scanner.nextInt();\n        }\n\n        int max = arr[0];\n\n        for (int anArr : arr) {\n            if (anArr > max)\n                max = anArr;\n        }\n\n        System.out.println(\"Largest number in the array is \" + max);\n    }\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Bubble sort works by comparing adjacent elements of the list and swapping them if they are out of order. It passes through the list multiple times, with each pass through the list moving the highest value elements to their correct position. This process continues until the list is fully sorted.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "function containsSameNumbers(arr1, arr2) {\n\tconst intersection = [];\n\tfor (let i = 0; i < arr1.length; i++) {\n\t\tif (arr2.includes(arr1[i])) {\n\t\t\tintersection.push(arr1[i]);\n\t\t}\n\t}\n\treturn intersection;\n}\n\ncontainsSameNumbers(arr1, arr2); // Output: [3, 4, 5]",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import time\n \nfor i in range(10, 0, -1):\n    print(i)\n    time.sleep(1)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "const sortedArray = array.sort((a, b) => b - a);",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "for char in “Hello World!”:\n  print(char)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT * \nFROM Table1 \nINNER JOIN Table2 \nON Table1.field2 = Table2.field2",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def sumToN(n):\n  sum = 0\n  for i in range(1, n+1):\n    sum += i\n  return sum",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "list_of_ints = [10, 10, 20, 20, 30]",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "public class MainActivity extends AppCompatActivity {\n\n    RecyclerView listView;\n\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_main);\n\n        // Instantiate the database\n        AppDatabase db = AppDatabase.getInstance(this);\n\n        // Instantiate the RecyclerView\n        listView = findViewById(R.id.listView);\n\n        // Get the list of items from the database\n        List<Item> items = db.itemDao().getAll();\n\n        // Set the LayoutManager\n        listView.setLayoutManager(new LinearLayoutManager(this));\n\n        // Set the adapter for the RecyclerView\n        listView.setAdapter(new ItemAdapter(items));\n    }\n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def bubble_sort(arr):\n    n = len(arr)\n\n    # Traverse through all array elements\n    for i in range(n):\n        # Last i elements are already in place\n        for j in range(0, n-i-1):\n            # traverse the array from 0 to n-i-1\n            # Swap if the element found is greater\n            # than the next element\n            if arr[j] > arr[j+1] :\n                arr[j], arr[j+1] = arr[j+1], arr[j]",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "class Number:\n  def __init__(self, number):\n    self.number = number\n    self.square = number * number\n    self.cube = number * number * number",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Weather Tracker</title>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n</head>\n<body>\n    <h1>Current Weather</h1>\n    <div class=\"data-table\"></div>\n\n    <script>\n        $(function() {\n            $.get('https://weather-tracker-server.herokuapp.com', function(data) {\n                var cityNames = [];\n                var temperatures = [];\n                $(data).each(function(index, item) {\n                    cityNames.push(item.name);\n                    temperatures.push(item.temperature);\n                });\n                $('.data-table').append(`<span>City</span><span>Temperature</span>`);\n                for (var i = 0; i < data.length; i++) {\n                    $('.data-table').append(`<span>${cityNames[i]}</span><span>${temperatures[i]}</span>`);\n                }\n            });\n        });\n    </script>\n</body>\n</html>",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "The best linear search algorithm to use for this task is the linear search algorithm. In the linear search algorithm, the list is looped through and each element is compared to the target. If the item is found, its position is returned.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def combine_lists(list1, list2):\n  combined_list = list1 + list2\n  return combined_list\n\nprint(combine_lists([1, 2, 3], [4, 5, 6]))",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "# Definition for singly-linked list.\nclass ListNode:\n    def __init__(self, x):\n        self.val = x\n        self.next = None\n\ndef reverse_list(head):\n    prev = None\n    while head != None:\n        next = head.next\n        head.next = prev\n        prev = head\n        head = next\n    return prev",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "for i in [1,2,3,4]:\n    print(i*i)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT c.first_name, c.last_name, COUNT(*)\nFROM customers c\nJOIN orders o\nON c.id = o.customer_id\nGROUP BY c.id\nHAVING COUNT(*) > 2",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "# Find the maximum value in an array\narr = [4, 5, 2, 8, 7]\n\nmax_value = arr[0]\nfor i in range(1, len(arr)):\n    if arr[i] > max_value:\n        max_value = arr[i]\n\nprint(max_value)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "In Python, strings are immutable which means they can not be changed once created. On the other hand, a list is mutable, meaning the elements can be altered after the list is created. Additionally, strings are sequences of characters, whereas lists are sequences of any type of data.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "You can detect the version of Python installed by running `python -V` in the command line. This will print the version of Python installed. Alternatively, you can execute `import sys; print(sys.version)` in the Python shell.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "SELECT COUNT(player_id) AS number_of_players, club\nFROM club_players \nGROUP BY club;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def heron_area(a, b, c): \n\t# calculate the semi-perimeter \n\ts = (a + b + c) / 2\n\n\t# calculate the area \n\tarea = (s * (s - a) * (s - b) * (s - c)) ** 0.5\n\treturn area",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "The main difference between post() and get() in AJAX is that post() sends the data in the body of the request and get() sends it in the URL. Post() is generally used to send form data, and can be used for creating or updating data on the server. Get() is usually used for requesting data from the server, and can be used for reading data from the server.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "#include <iostream>\n#include <unordered_map>\nusing namespace std;\n\n// Data structure to store Customer data \nstruct Customer { \n    int id; \n    string name; \n    string address;\n}; \n  \n// Function to store customer data using HashMap \nvoid store(unordered_map<int, Customer>& map, Customer& customer) \n{ \n    map[customer.id] = customer; \n} \n\nint main() \n{ \n    unordered_map<int, Customer> map; \n  \n    Customer customer1{ 1, \"John\", \"B214, Road 11, US\" }; \n    Customer customer2{ 2, \"Jacob\", \"C231, Road 53, UK\" }; \n    Customer customer3{ 3, \"James\", \"D215, Road 43, Canada\" }; \n  \n    store(map, customer1); \n    store(map, customer2); \n    store(map, customer3); \n  \n    return 0; \n}",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import re\n\nwords = re.findall(r'\\bA\\w+', text)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import requests\n\nurl = 'https://jsonplaceholder.typicode.com/posts'\n\nresponse = requests.get(url)\ndata = response.json()\n\nfor post in data:\n    title = post['title']\n    body = post['body']\n    \n    print('Title: ', title)\n    print('Body: ', body)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "import React from 'react';\nimport Axios from 'axios';\n\nclass App extends React.Component {\n    \n    constructor(props) {\n        super(props);\n        this.state = {\n            data: [],\n        };\n    }\n\n    async componentDidMount() {\n        const res = await Axios.get(<api_url>)\n        this.setState({data: res.data});\n    }\n\n    render(){\n        return (\n            <div>\n                {this.state.data.map(item => <p>{item.name}</p>)}\n            </div>\n        )\n    }\n}\n\nexport default App;",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "def larger(num1, num2):\n    \"\"\"Takes two integers and returns the larger one.\n\n    Args:\n        num1 (int): The first integer.\n        num2 (int): The second integer.\n\n    Returns:\n        int: The larger of the two given integers.\n    \"\"\"\n    return max(num1, num2)",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What classifies a malware as 'banking'",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the distribution model of the ransomware?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What does Bitdefender identify as Application.Agent.KJT?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "corrected.ps1'의 SHA256 해시 값은 얼마인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "TLP:WHITE 정보는 제한 없이 배포될 수 있나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "vac.dll'의 디지털 서명된 인증서 테이블에 배우가 어떤 작업을 수행한 것일까요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What actions were taken to inform the victims and prevent secondary damage?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How did the first major revision to the Unix file system improve write access?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Emotet가 해체된 후에 주로 어떤 이메일 응용 프로그램에 초점을 맞추었나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "In which quarter did the File Anti-Virus detect 43,827,839 malicious and potentially unwanted objects?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Can the post-exploitation technique used by PuzzleMaker and CHAINSHOT be used by various groups independently?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What group is known for customizing and using the S0061 malware?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Where can S0057 be executed from?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What are the signs of a Trojan infection on a computer?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "새로 생성된 프로세스에 주입되는 실행 파일의 이름은 무엇인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What has increased in the number of instant messaging app mods?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the process of S/MIME usage?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What file format do exploits often take advantage of due to their consistent layout?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is written in the new text document created after running Systemfont.exe on a virtual machine?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the date associated with the link to the Forza Horizon 5 Hack Menu?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "S0623 맬웨어는 언제 처음 관찰되었습니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "톤토 팀이 활동을 시작한 시기는 언제입니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is expected to become more sophisticated in the future?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What action was taken against the fraudulent apps upon discovery?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Who are believed to be the creators of GravityRAT spyware?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "파일이 성공적으로 업로드되면 스크립트는 어떤 메시지를 보냅니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What might analysts miss when trying to track callbacks?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "T1550.003 적들이 다른 사용자 정보를 사용하여 유효한 케르베로스 티켓을 어떻게 만들 수 있나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "As an AI, I need contextual information to generate questions. The provided input does not seem to be in a standard informative format (it seems like random alphanumeric codes), which makes it impossible for me to generate any meaningful questions based on it.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "의 비율을 가진 트로이 대상은 무엇인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "새 파일이 감지되었을 때, 악성 소프트웨어는 어떻게 작동합니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "이 CISA 제출물에 포함된 파일의 종류는 무엇입니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What sites are addressed by Milum C2",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the EU's share of phishing detections from April 2020 to April ",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What methods do the scammers use to promote their malicious apps?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What did the investigation determine these components to be based on?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "S1066는 언제 처음 활동하기 시작했나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How does Gigabud steal credentials from the infected device?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "S' 명령은 무엇을 하나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "When were the two different waves of Operation Texonto detected?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "In which country were KopiLuwak and TunnusSched deployed in a single operation in September ",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the symbol resolver-related routines used by the backdoor?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "S0390이란 무엇인지 설명해주세요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Where is the data ready to be sent in this code?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "마지막 단계 쉘 스크립트가 예상된 환경에서 실행되고 있는지 확인하려면 무엇을 수행합니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "이 통계는 다른 국가들의 컴퓨터 감염 수준을 어떻게 이해하는 데 도움이 되는가?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "T1195.003 What is the purpose of adversaries manipulating hardware components?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Since there is no context provided, it is not possible to generate relevant questions.",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "When did the malware stop being primarily active in Mexico?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is being impersonated in the screenshot provided in Figure ",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "T1608.004 드라이브 바이 손상에서 일반적으로 어떤 것이 악용 대상인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Which information stealing malware has used S0499?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "라트비아의 백분율은 얼마입니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Why is the FNV1a hash extensively used in both Sunburst and Kazuar?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "T1132.001 한국어: 표준 데이터 인코딩 시스템이 프로토콜 사양을 준수하면서 언제 사용되나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What percentage was recorded for mainland China in Q1",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Can some variants run without infecting the system?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "T1190 What are some examples of exploited applications?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "마지막으로 관찰된 캠페인 외에도 또 어떤 방법을 사용하는 캠페인이 진행 중이었습니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the function of S0355?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What was the target of the APT group Turla's recent attack?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What key is commonly used by wave 1 and wave 2 wipers to access the raw disk driver?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "고객은 서버 접근을 차단하기 위해 어떤 조치를 취했나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How large is the file in bytes?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What method was used to deploy the post-compromise tools identified?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "XOR_SEED는 어떤 목적으로 사용됩니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "특정 트랜잭션이 위협 배우자의 지갑으로 암호 화폐를 전송했다는 것을 희생자는 어떻게 모르게 됩니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Who are the Belarusian Cyber Partisans?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "rdata 섹션의 원시 크기는 얼마인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "파일의 이름은 무엇인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Was the United States in the top 20 countries where spam originated in ",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "APC 인젝션은 어떤 절차를 따르나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "In which quarter of 2021 did Kaspersky solutions detect 31,443 new miner modifications?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Emotet를 종료시키기 위해 취해진 조치를 조정한 기관은 무엇입니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "S1071는 어떤 언어로 작성된 도구 모음인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "왜 고압적인 사람들이 브라우저를 통해 모든 민감한 사용자 데이터에 액세스 할 수 없습니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How many computers were reportedly infected by the GandCrab ransomware?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the typical guise of a phishing email?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What types of global events do threat actors traditionally exploit?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Apologies for the confusion, but the input doesn't provide enough context to generate a question. Could you please provide more detailed information?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How can legitimate websites spread malware?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "In which year did the intrusion into a Hong Kong university occur?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "합법적인 파일과 악성 파일의 이름 차이는 무엇인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "NullMixer는 어떤 기능을 가지고 있나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How many values does the exploit patch in the BLF file?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How was the HyperBro backdoor delivered to victims?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What virus does AhnLab detect?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Stop에 연결된 백분율은 얼마인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "In what year was Able Desktop first observed being used to download and execute HyperBro?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How did some scammers pose themselves as a resource for quick money in ",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "T1602.001 MIB의 주요 기능은 무엇인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "S0023은 무슨 유형의 악성 소프트웨어인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What is the ESET detection name for the file 'p64.exe' with SHA-1 of 'B9601E60F87545441BF8579B2F62668C56507F4A'",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "text 섹션의 엔트로피는 무엇인가요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "What extension does HermeticRansom append to encrypted files?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "T1098.005 다중 요소 인증 시스템에서 장치를 등록하는 목적은 무엇입니까?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "How is a file hash used in computer security?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Which APT actor was attributed to the campaign exploiting Microsoft Exchange servers last year?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Device 정보\"란 무엇을 포함하고 있나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "이 JSP 웹셸 파일은 어떤 기능을 수행하기 위해 클라이언트 측의 form-data를 받아오나요?",
+        "answer": [
+            {
+                "tool": "reject_request",
+                "tool_input": "{}"
+            }
+        ]
+    },
+    {
+        "question": "Today is April 24, 2024. Yesterday's Risk Report.",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-23\", \"end_date\": \"2024-04-23\"}}]"
+    },
+    {
+        "question": "5602 리스크에 대한 추천대응은 어떤것이 있을까?",
+        "answer": "[{\"tool\": \"get_xdr_available_response_playbooks\", \"tool_input\": {\"risk_id\": \"5602\"}}]"
+    },
+    {
+        "question": "Analyze the unusual risk counts on 2024-04-29.",
+        "answer": "[{\"tool\": \"analyze_xdr_unusual_risk_factor\", \"tool_input\": {\"date\": \"2024-04-29\"}}]"
+    },
+    {
+        "question": "Please summarize Risk ID 5808",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"5808\"}}]"
+    },
+    {
+        "question": "RISK 5332에 대해서 분석해줘",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"5332\"}}]"
+    },
+    {
+        "question": "Today is May 3, 2024. Which department had the highest risk score on a month?",
+        "answer": "[{\"tool\": \"get_xdr_risk_score_of_department\", \"tool_input\": {\"start_date\": \"2024-04-03\", \"end_date\": \"2024-05-03\"}}]"
+    },
+    {
+        "question": "2023년 10월 22일 하루 동안 발생한 위협 정보 목록을 조회해줘",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2023-10-22\", \"end_date\": \"2023-10-22\"}}]"
+    },
+    {
+        "question": "What does Risk ID 5434 say?",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"5434\"}}]"
+    },
+    {
+        "question": "Today is May 3, 2024. Who was the user with the highest risk score for the last 7 days?",
+        "answer": "[{\"tool\": \"get_xdr_risk_score_of_users\", \"tool_input\": {\"start_date\": \"2024-04-27\", \"end_date\": \"2024-05-03\"}}]"
+    },
+    {
+        "question": "Today is May 6, 2024. Who was the user with the highest risk in the last 7 days?",
+        "answer": "[{\"tool\": \"get_xdr_risk_score_of_users\", \"tool_input\": {\"start_date\": \"2024-04-30\", \"end_date\": \"2024-05-06\"}}]"
+    },
+    {
+        "question": "what new risks have arisen yesterday. today is 2024-04-26",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-25\", \"end_date\": \"2024-04-25\"}}]"
+    },
+    {
+        "question": "Today is Wednesday, May 1, 2024. Is there any risk detected last week for 10.14.22.8?",
+        "answer": "[{\"tool\": \"get_xdr_risk_report_of_device\", \"tool_input\": {\"device_ip\": \"10.14.22.8\", \"start_date\": \"2024-04-22\", \"end_date\": \"2024-04-28\"}}]"
+    },
+    {
+        "question": "Today is Wednesday, April 24, 2024. please summarize risk status last week",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-15\", \"end_date\": \"2024-04-21\"}}]"
+    },
+    {
+        "question": "Today is May 2, 2024. Which department had the highest risk score for last 7 days?",
+        "answer": "[{\"tool\": \"get_xdr_risk_score_of_department\", \"tool_input\": {\"start_date\": \"2024-04-26\", \"end_date\": \"2024-05-02\"}}]"
+    },
+    {
+        "question": "Threat Intelligence contents of 5809 risk.",
+        "answer": "[{\"tool\": \"get_xdr_threat_intelligence_contents_of_risk\", \"tool_input\": {\"risk_id\": \"5809\"}}]"
+    },
+    {
+        "question": "5004 리스크 ID를 요약해줘",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"5004\"}}]"
+    },
+    {
+        "question": "what is the riskiest asset related to the risk 5604?",
+        "answer": "[{\"tool\": \"get_xdr_risk_impacted_assets\", \"tool_input\": {\"risk_id\": \"5604\"}}]"
+    },
+    {
+        "question": "2023-10-22의risk score 알려줘",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2023-10-22\", \"end_date\": \"2023-10-22\"}}]"
+    },
+    {
+        "question": "오늘은 2024년 4월 30일이야. 4월 28일부터 오늘까지에 대해 관찰했을 때, 조치가 완료되지 않은 risk?",
+        "answer": "[{\"tool\": \"get_xdr_response_status\", \"tool_input\": {\"start_date\": \"2024-04-28\", \"end_date\": \"2024-04-30\"}}]"
+    },
+    {
+        "question": "show me available playbooks for risk 5919",
+        "answer": "[{\"tool\": \"get_xdr_available_response_playbooks\", \"tool_input\": {\"risk_id\": \"5919\"}}]"
+    },
+    {
+        "question": "4398 리스크 ID를 요약해줘",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"4398\"}}]"
+    },
+    {
+        "question": "The current date is May 5, 2024. Top 10 departments by risk score from May 2 to May 4.",
+        "answer": "[{\"tool\": \"get_xdr_risk_score_of_department\", \"tool_input\": {\"start_date\": \"2024-05-02\", \"end_date\": \"2024-05-04\"}}]"
+    },
+    {
+        "question": "Today is April 23, 2024. Give risk report of last month?",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-03-01\", \"end_date\": \"2024-03-31\"}}]"
+    },
+    {
+        "question": "Today is May 2, 2024. List of devices relevant to \"Business Division\" department, covering the period from April 29 to May 1.",
+        "answer": "[{\"tool\": \"get_xdr_devices_by_department\", \"tool_input\": {\"department\": \"Business Division\", \"start_date\": \"2024-04-29\", \"end_date\": \"2024-05-01\"}}]"
+    },
+    {
+        "question": "The current date is April 23, 2024. Give risk report of this month",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-01\", \"end_date\": \"2024-04-23\"}}]"
+    },
+    {
+        "question": "Available response playbooks for 5809 risk.",
+        "answer": "[{\"tool\": \"get_xdr_available_response_playbooks\", \"tool_input\": {\"risk_id\": \"5809\"}}]"
+    },
+    {
+        "question": "오늘은 2024년 4월 29일이야. 어제 리스크 보고서는?",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-28\", \"end_date\": \"2024-04-28\"}}]"
+    },
+    {
+        "question": "Please summarize Risk ID 5332",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"5332\"}}]"
+    },
+    {
+        "question": "risk ID 178885에 대해 알려줘",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"178885\"}}]"
+    },
+    {
+        "question": "The current date is May 2, 2024. List of devices relevant to \"CEO\" department, covering the period from April 29 to today.",
+        "answer": "[{\"tool\": \"get_xdr_devices_by_department\", \"tool_input\": {\"department\": \"CEO\", \"start_date\": \"2024-04-29\", \"end_date\": \"2024-05-02\"}}]"
+    },
+    {
+        "question": "Today is May 7, 2024. Yesterday's News Clips.",
+        "answer": "[{\"tool\": \"get_xdr_latest_news_clips\", \"tool_input\": {\"start_date\": \"2024-05-06\", \"end_date\": \"2024-05-06\"}}]"
+    },
+    {
+        "question": "Threat Intelligence contents of 5813 risk.",
+        "answer": "[{\"tool\": \"get_xdr_threat_intelligence_contents_of_risk\", \"tool_input\": {\"risk_id\": \"5813\"}}]"
+    },
+    {
+        "question": "Analyze the unusual risk counts on 2024-05-01.",
+        "answer": "[{\"tool\": \"analyze_xdr_unusual_risk_factor\", \"tool_input\": {\"date\": \"2024-05-01\"}}]"
+    },
+    {
+        "question": "Today is May 3, 2024. Network event report of violet from May 1 to May 2",
+        "answer": "[{\"tool\": \"get_xdr_network_event_report_of_user\", \"tool_input\": {\"user_account\": \"violet\", \"start_date\": \"2024-05-01\", \"end_date\": \"2024-05-02\"}}]"
+    },
+    {
+        "question": "5336 risk를 요약해줘",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"5336\"}}]"
+    },
+    {
+        "question": "\nWhat caused the high risk score on 2024-04-23?",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-23\", \"end_date\": \"2024-04-23\"}}]"
+    },
+    {
+        "question": "The current date is May 2, 2024. Who was the user with the highest risk in the last 7 days?",
+        "answer": "[{\"tool\": \"get_xdr_risk_score_of_users\", \"tool_input\": {\"start_date\": \"2024-04-26\", \"end_date\": \"2024-05-02\"}}]"
+    },
+    {
+        "question": "Analyze the unusual risk counts on 2024-04-18.",
+        "answer": "[{\"tool\": \"analyze_xdr_unusual_risk_factor\", \"tool_input\": {\"date\": \"2024-04-18\"}}]"
+    },
+    {
+        "question": "2023년 12월 7일 하루 동안 탐지한 위협 정보를 알려줘.",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2023-12-07\", \"end_date\": \"2023-12-07\"}}]"
+    },
+    {
+        "question": "The current date is April 30, 2024. can i get riskStatus new risk from April 26 to today?",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-26\", \"end_date\": \"2024-04-30\"}}]"
+    },
+    {
+        "question": "assets related to risk 272073 ?",
+        "answer": "[{\"tool\": \"get_xdr_risk_impacted_assets\", \"tool_input\": {\"risk_id\": \"272073\"}}]"
+    },
+    {
+        "question": "Analyze the unusual risk counts on 2024-05-03.",
+        "answer": "[{\"tool\": \"analyze_xdr_unusual_risk_factor\", \"tool_input\": {\"date\": \"2024-05-03\"}}]"
+    },
+    {
+        "question": "Today is Sunday, May 5, 2024. Last week\"s Risk report",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-22\", \"end_date\": \"2024-04-28\"}}]"
+    },
+    {
+        "question": "The current date is May 7, 2024. Today\"s Risk Report.",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-05-07\", \"end_date\": \"2024-05-07\"}}]"
+    },
+    {
+        "question": "Provide asset information associated with Risk ID 5332",
+        "answer": "[{\"tool\": \"get_xdr_risk_impacted_assets\", \"tool_input\": {\"risk_id\": \"5332\"}}]"
+    },
+    {
+        "question": "Today is May 2, 2024. any critical risk today?",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-05-02\", \"end_date\": \"2024-05-02\"}}]"
+    },
+    {
+        "question": "The current date is May 5, 2024. Yesterday\"s News Clips.",
+        "answer": "[{\"tool\": \"get_xdr_latest_news_clips\", \"tool_input\": {\"start_date\": \"2024-05-04\", \"end_date\": \"2024-05-04\"}}]"
+    },
+    {
+        "question": "what\"s the date for risk 5919",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"5919\"}}]"
+    },
+    {
+        "question": "Show the analysis of Risk ID 269068",
+        "answer": "[{\"tool\": \"get_xdr_risk_detail\", \"tool_input\": {\"risk_id\": \"269068\"}}]"
+    },
+    {
+        "question": "Today is Thursday, April 25, 2024.\nSummarize the risk status for last week",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-15\", \"end_date\": \"2024-04-21\"}}]"
+    },
+    {
+        "question": "The current date is May 3, 2024. Risk report from May 1 to today for the device with 10.14.22.19 IP.",
+        "answer": "[{\"tool\": \"get_xdr_risk_report_of_device\", \"tool_input\": {\"device_ip\": \"10.14.22.19\", \"start_date\": \"2024-05-01\", \"end_date\": \"2024-05-03\"}}]"
+    },
+    {
+        "question": "Available response playbooks for 5823 risk.",
+        "answer": "[{\"tool\": \"get_xdr_available_response_playbooks\", \"tool_input\": {\"risk_id\": \"5823\"}}]"
+    },
+    {
+        "question": "Today is April 26, 2024. Please summarize the current situation. for risk",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-26\", \"end_date\": \"2024-04-26\"}}]"
+    },
+    {
+        "question": "The current date is May 6, 2024. Today's Risk Report.",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-05-06\", \"end_date\": \"2024-05-06\"}}]"
+    },
+    {
+        "question": "Today is May 1, 2024. List of devices relevant to \"Saas Development Team\" department, covering the period from April 24 to today.",
+        "answer": "[{\"tool\": \"get_xdr_devices_by_department\", \"tool_input\": {\"department\": \"Saas Development Team\", \"start_date\": \"2024-04-24\", \"end_date\": \"2024-05-01\"}}]"
+    },
+    {
+        "question": "Available response playbooks for 5403 risk.",
+        "answer": "[{\"tool\": \"get_xdr_available_response_playbooks\", \"tool_input\": {\"risk_id\": \"5403\"}}]"
+    },
+    {
+        "question": "Today is May 7, 2024. Can you provide today\"s risk report?",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-05-07\", \"end_date\": \"2024-05-07\"}}]"
+    },
+    {
+        "question": "Risk Report from 2024-04-30 to 2024-05-01.",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-30\", \"end_date\": \"2024-05-01\"}}]"
+    },
+    {
+        "question": "Today is April 23, 2024. summary of the risk status for today",
+        "answer": "[{\"tool\": \"get_xdr_risk_report\", \"tool_input\": {\"start_date\": \"2024-04-23\", \"end_date\": \"2024-04-23\"}}]"
+    },
+    {
+        "question": "show me available playbooks for this risk 5919",
+        "answer": "[{\"tool\": \"get_xdr_available_response_playbooks\", \"tool_input\": {\"risk_id\": \"5919\"}}]"
+    }
+]
